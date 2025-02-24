@@ -3,4 +3,48 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    /* Light mode colours */
+    --light-colour-1: #F7FBFD;
+    --light-color-2: #DDF186;
+    /* Dark mode colours */
+    --dark-colour-1: #282E30;
+    --dark-colour-2: #92C5FD;
+}
+
+/* Header */
+
+.header{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--light-colour-1);
+}
+
+h1, .sign-in-btn {
+    font-size: 2rem;
+}
+
+h1 {
+    color: var(--dark-colour-1);
+}
+
+.sign-in-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--light-color-2);
+    color: var(--dark-colour-1);
+    cursor: pointer;
+    transition: all .2s ease-in-out 0s;
+}
+
+.sign-in-btn:hover {
+    background-color: var(--dark-colour-1);
+    color: var(--light-color-2);
 }
