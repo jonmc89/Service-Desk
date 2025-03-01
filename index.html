@@ -11,18 +11,22 @@
         <h1>Service Desk</h1>
     </header>
     <section class="welcome-section">
-        <div class="welcome-container">
-            <h4>Welcome</h4>
-            <form class="welcome-form" action="">
-                <fieldset class="sign-in-fieldset">
-                    <label for="">Username </label>
-                    <input type="email">
-                    <label for="">Password </label>
-                    <input type="password">
+        <div class="welcome-card">
+            <div class="welcome-card-inner">
+                <div class="welcome-card-front">
+                    <fieldset>
+                     <label for="">Username </label>
+                     <input type="text">
+                     <label for="">Password </label>  
+                     <input type="password"> 
+                    </fieldset>
                     <button id="sign-in-btn" class="sign-in-btn">Sign In</button>
-                </fieldset>
-            </form>
-            <p>Dont have an account? <a class="sign-up-link" href="#">Sign up</a></p>
+                    <p>Dont have an account? <a id="signUp" class="sign-up-link" href="#">Sign Up</a></p>
+                </div>
+                <div class="welcome-card-back">
+                    <p>Back</p>
+                </div>
+            </div>
         </div>
     </section>
     <footer class="footer">
