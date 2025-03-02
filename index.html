@@ -16,16 +16,35 @@
                 <div class="welcome-card-front">
                     <h3>Welcome</h3>
                     <fieldset>
-                     <label for="">Username </label>
-                     <input type="text">
-                     <label for="">Password </label>  
-                     <input type="password"> 
+                        <form action="">
+                            <label for="">Username </label>
+                            <input type="text">
+                            <label for="">Password </label>  
+                            <input type="password"> 
+                        </form>
                     </fieldset>
                     <button id="sign-in-btn" class="sign-in-btn">Sign In</button>
                     <p>Dont have an account? <a id="signUp" class="sign-up-link" href="#">Sign Up</a></p>
                 </div>
                 <div class="welcome-card-back">
-                    
+                    <div class="sign-up-container">
+                        <fieldset>
+                            <form class="sign-up-form" action="">
+                                    <label for="" class="username">Username</label>
+                                    <input type="text" class="username-input">
+                                    <label for="" class="new-password">New Password</label>
+                                    <input type="password" class="new-password-input">
+                                    <label for="" class="confirm-password">Confirm Password</label>
+                                    <input type="password" class="confirm-password-input">
+                                    <label for="" class="email">Email</label>
+                                    <input type="email" class="email-input">
+                                    <div class="terms">
+                                        <p><input type="checkbox"> I accept the Terms of Use & Privacy Policy</p>
+                                    </div>                                  
+                                    <input  id="signUpSubmit" class="sign-up-submit" type="submit">
+                            </form>
+                        </fieldset>
+                    </div>
                 </div>
             </div>
         </div>
