@@ -64,9 +64,11 @@ h1 {
     transform-style: preserve-3d;
 }
 
-.welcome-card:hover .welcome-card-inner {
+
+.rotate {
     transform: rotateY(180deg);
 }
+
 
 .welcome-card-front, .welcome-card-back {
     position: absolute;
@@ -97,6 +99,10 @@ h1 {
 
 .welcome-card-front *{
     font-size: 2rem;
+}
+
+.welcome-card-front h3 {
+    margin-bottom: 20px;
 }
 
 .welcome-card-front fieldset  {
@@ -169,7 +175,7 @@ h1 {
 }
 
 .sign-in-btn:active {
-    background-color: var(--color1);
+    background-color: var(--color2);
     color: var(--color3)
     
 }
